@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AddressOne": {
+      "type": "string"
+    },
+    "AddressTwo": {
+      "type": "string"
+    },
+    "MobileNumber": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.buttons"
+    }
+  }
+}

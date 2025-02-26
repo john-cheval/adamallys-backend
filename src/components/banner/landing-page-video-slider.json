@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_banner_landing_page_video_sliders",
+  "info": {
+    "displayName": "Landing_Page_Video_Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "NextButtonImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

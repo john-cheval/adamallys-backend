@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_choose_adamallys",
+  "info": {
+    "singularName": "why-choose-adamally",
+    "pluralName": "why-choose-adamallys",
+    "displayName": "Why Choose Adamallys",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhyChoose": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.why-choose-card"
+    }
+  }
+}

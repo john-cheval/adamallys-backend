@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "industrial_and_energy_sector_supplies_pages",
+  "info": {
+    "singularName": "industrial-and-energy-sector-supplies-page",
+    "pluralName": "industrial-and-energy-sector-supplies-pages",
+    "displayName": "Industrial & Energy Sector Supplies Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "video_title": {
+      "type": "string"
+    },
+    "OtherServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.other-services"
+    },
+    "KeyProducts": {
+      "type": "dynamiczone",
+      "components": [
+        "cards.ie-list",
+        "cards.ie-content"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_banner_distributors_stockists_banners",
+  "info": {
+    "displayName": "Distributors Stockists Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

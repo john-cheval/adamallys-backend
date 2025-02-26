@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "technical_marine_stores_pages",
+  "info": {
+    "singularName": "technical-marine-stores-page",
+    "pluralName": "technical-marine-stores-pages",
+    "displayName": "Technical Marine Stores Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_title": {
+      "type": "text"
+    },
+    "banner_info": {
+      "type": "text"
+    },
+    "banner_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list"
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list-card"
+    },
+    "OtherServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.other-services"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_adamallys_llcs",
+  "info": {
+    "displayName": "Adamallys LLC"
+  },
+  "options": {},
+  "attributes": {
+    "Location": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

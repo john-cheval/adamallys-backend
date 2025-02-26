@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_ie_lists",
+  "info": {
+    "displayName": "IEList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list"
+    }
+  }
+}

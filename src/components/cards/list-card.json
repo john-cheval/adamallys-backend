@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_cards_list_cards",
+  "info": {
+    "displayName": "list card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "info": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list"
+    },
+    "link": {
+      "type": "string"
+    },
+    "Secound_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Info2": {
+      "type": "text"
+    }
+  }
+}

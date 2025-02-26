@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cards_title_contnets",
+  "info": {
+    "displayName": "Title Contnet"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

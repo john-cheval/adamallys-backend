@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cards_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "text"
+    },
+    "Label": {
+      "type": "string"
+    }
+  }
+}

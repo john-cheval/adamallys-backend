@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "ship_supply_pages",
+  "info": {
+    "singularName": "ship-supply-page",
+    "pluralName": "ship-supply-pages",
+    "displayName": "Ship Supply Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "Product_and_service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.service-card"
+    },
+    "OtherServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.other-services"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.buttons"
+    }
+  }
+}

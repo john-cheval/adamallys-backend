@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_adamallys_group_2s",
+  "info": {
+    "displayName": "Adamallys Group 2"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

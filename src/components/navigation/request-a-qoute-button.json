@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navigation_request_a_qoute_buttons",
+  "info": {
+    "displayName": "Request a qoute button"
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

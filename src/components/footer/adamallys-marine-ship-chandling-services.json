@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_adamallys_marine_ship_chandling_services",
+  "info": {
+    "displayName": "Adamallys Marine Ship chandling services"
+  },
+  "options": {},
+  "attributes": {
+    "Location": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

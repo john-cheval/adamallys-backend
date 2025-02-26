@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_certifications_and_memberships",
+  "info": {
+    "displayName": "Certifications & Memberships"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "ship_spare_parts_pages",
+  "info": {
+    "singularName": "ship-spare-parts-page",
+    "pluralName": "ship-spare-parts-pages",
+    "displayName": "Ship Spare Parts Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_title": {
+      "type": "text"
+    },
+    "banner_Info": {
+      "type": "text"
+    },
+    "banner_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Why_Choose_Title": {
+      "type": "string"
+    },
+    "Why_Choose_Info": {
+      "type": "text"
+    },
+    "Why_Choose_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list-card"
+    },
+    "OtherServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.other-services"
+    }
+  }
+}

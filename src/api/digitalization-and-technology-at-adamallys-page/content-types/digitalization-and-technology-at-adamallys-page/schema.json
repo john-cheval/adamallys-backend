@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "digitalization_and_technology_at_adamallys_pages",
+  "info": {
+    "singularName": "digitalization-and-technology-at-adamallys-page",
+    "pluralName": "digitalization-and-technology-at-adamallys-pages",
+    "displayName": "Digitalization & Technology at Adamallys Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Banner_Title": {
+      "type": "string"
+    },
+    "Banner_Info": {
+      "type": "text"
+    },
+    "Banner_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list-card"
+    }
+  }
+}

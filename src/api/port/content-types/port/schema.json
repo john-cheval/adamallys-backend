@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "ports",
+  "info": {
+    "singularName": "port",
+    "pluralName": "ports",
+    "displayName": "Port Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UAE_Ports": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.port-card"
+    },
+    "Oman": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.port-card"
+    }
+  }
+}

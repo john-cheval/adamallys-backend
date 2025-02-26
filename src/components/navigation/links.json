@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navigation_links",
+  "info": {
+    "displayName": "Links",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

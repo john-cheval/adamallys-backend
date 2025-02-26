@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "distributors_and_stockists_pages",
+  "info": {
+    "singularName": "distributors-and-stockists-page",
+    "pluralName": "distributors-and-stockists-pages",
+    "displayName": "Distributors & Stockists Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.distributors-stockists-banner"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.distributors-and-stockists-card"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cards_other_services",
+  "info": {
+    "displayName": "Other_Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.other-service-card"
+    }
+  }
+}

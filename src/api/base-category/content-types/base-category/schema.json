@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "base_categories",
+  "info": {
+    "singularName": "base-category",
+    "pluralName": "base-categories",
+    "displayName": "Base Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "secondary_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::secondary-category.secondary-category",
+      "mappedBy": "base_category"
+    },
+    "general_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "base_category"
+    },
+    "specific_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::specific-category.specific-category",
+      "mappedBy": "base_category"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "base_categories"
+    }
+  }
+}

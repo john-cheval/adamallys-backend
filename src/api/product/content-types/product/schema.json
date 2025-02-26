@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SKU": {
+      "type": "string"
+    },
+    "specific_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::specific-category.specific-category"
+    },
+    "secondary_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::secondary-category.secondary-category",
+      "inversedBy": "products"
+    },
+    "general_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "specific_categorys": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::specific-category.specific-category",
+      "inversedBy": "products"
+    },
+    "UOM": {
+      "type": "string"
+    },
+    "MTML": {
+      "type": "string"
+    },
+    "Product_Expanation": {
+      "type": "blocks"
+    },
+    "base_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::base-category.base-category",
+      "mappedBy": "products"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cards_milestone_cards",
+  "info": {
+    "displayName": "Milestone Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

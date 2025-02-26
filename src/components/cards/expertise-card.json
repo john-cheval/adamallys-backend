@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cards_expertise_cards",
+  "info": {
+    "displayName": "Expertise Card"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

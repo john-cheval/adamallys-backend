@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "certifications_and_memberships_pages",
+  "info": {
+    "singularName": "certifications-and-memberships-page",
+    "pluralName": "certifications-and-memberships-pages",
+    "displayName": "Certifications & Memberships Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Certifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.certifications-and-memberships"
+    },
+    "Memberships": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.certifications-and-memberships"
+    }
+  }
+}

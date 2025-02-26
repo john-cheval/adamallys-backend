@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cards_distributors_and_stockists_cards",
+  "info": {
+    "displayName": "Distributors & Stockists Card"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

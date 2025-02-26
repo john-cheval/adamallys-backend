@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cards_ie_contents",
+  "info": {
+    "displayName": "IEContent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Caption": {
+      "type": "text"
+    }
+  }
+}

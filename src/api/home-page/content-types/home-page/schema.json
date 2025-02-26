@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Our_Company_Content": {
+      "type": "blocks"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.landing-page-video-slider"
+    },
+    "CertificationsMemberships": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.icon-link"
+    },
+    "ServiceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.service-card"
+    },
+    "BrandContent": {
+      "type": "text"
+    },
+    "Icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.icon"
+    },
+    "ContentCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.content-card"
+    },
+    "news_and_events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-and-event.news-and-event"
+    }
+  }
+}

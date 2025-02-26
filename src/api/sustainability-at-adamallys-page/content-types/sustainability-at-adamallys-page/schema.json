@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "sustainability_at_adamallys_pages",
+  "info": {
+    "singularName": "sustainability-at-adamallys-page",
+    "pluralName": "sustainability-at-adamallys-pages",
+    "displayName": "Sustainability at Adamallys Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BannerImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BannerContent": {
+      "type": "text"
+    },
+    "CSR_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "text"
+    },
+    "fst_content": {
+      "type": "text"
+    },
+    "sec_content": {
+      "type": "text"
+    },
+    "third_content": {
+      "type": "text"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list-card"
+    }
+  }
+}

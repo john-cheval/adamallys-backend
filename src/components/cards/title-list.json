@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_title_lists",
+  "info": {
+    "displayName": "Title List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.list"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_other_service_cards",
+  "info": {
+    "displayName": "Other_Service_Card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Caption": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_cards_marine_ropes_cards",
+  "info": {
+    "displayName": "Marine Ropes Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.why-choose-card"
+    },
+    "Info2": {
+      "type": "text"
+    }
+  }
+}

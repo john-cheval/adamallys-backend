@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cards_buttons",
+  "info": {
+    "displayName": "Buttons"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.links"
+    }
+  }
+}

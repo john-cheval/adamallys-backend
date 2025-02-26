@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "About": {
+      "type": "text"
+    },
+    "Adamallys_Group": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.links"
+    },
+    "AdamallysGroup2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.adamallys-group-2"
+    },
+    "AdamallysLLC": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.adamallys-llc"
+    },
+    "AdamallysMarineShipChandlingServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.adamallys-marine-ship-chandling-services"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.links"
+    },
+    "Socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.icon-link"
+    },
+    "Copyright_Text": {
+      "type": "string"
+    },
+    "Side_Sticky_Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.icon-link"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_cards_provisions_cards",
+  "info": {
+    "displayName": "Provisions Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "text"
+    },
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.title-list"
+    }
+  }
+}

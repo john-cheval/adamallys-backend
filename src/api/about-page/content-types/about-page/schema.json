@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.milestone-card"
+    },
+    "ci_title": {
+      "type": "string"
+    },
+    "ci_info": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "history_title": {
+      "type": "string"
+    },
+    "history_subtitle": {
+      "type": "string"
+    },
+    "HistoryList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.histoy-card"
+    },
+    "PresentDayTitle": {
+      "type": "string"
+    },
+    "PresentDayImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ExpertiseMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ExpertiseCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.expertise-card"
+    },
+    "PresentDayInfo": {
+      "type": "richtext"
+    }
+  }
+}

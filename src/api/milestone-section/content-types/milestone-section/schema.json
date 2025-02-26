@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "milestone_sections",
+  "info": {
+    "singularName": "milestone-section",
+    "pluralName": "milestone-sections",
+    "displayName": "Milestone Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Background_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Milestones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.milestone-card"
+    }
+  }
+}
